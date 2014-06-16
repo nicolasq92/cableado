@@ -24,13 +24,17 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
+		<?php echo "Gestión de Cableado Estructurado" ?>:
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('bootstrap');
+		echo $this->Html->css('bootstrap-theme');
+
+		echo $this->Html->script('jquery');
+		echo $this->Html->script('bootstrap');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -40,24 +44,57 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-		</div>
+			<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Gestión de Cableado Estructurado</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Inicio</a></li>
+							<li><a href="#about">Acerca de</a></li>
+							<li><a href="#contact">Contacto</a></li>
+						</ul>
+					</div><!-- /.nav-collapse -->
+				</div><!-- /.container -->
+			</div><!-- /.navbar -->
+		</div><br><br><br><br>
+
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>
 
-			<?php echo $this->fetch('content'); ?>
-		</div>
+			<div class="container">
+				<div class="row row-offcanvas row-offcanvas-right">
+					<?php echo $this->fetch('content'); ?>
+					<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+						<div class="list-group">
+							<a href="#" class="list-group-item active">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+							<a href="#" class="list-group-item">Link</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-				);
-			?>
-			<p>
-				<?php echo $cakeVersion; ?>
-			</p>
+			<div class="container">
+				<hr>
+				<p>Práctica de Redes de Computadores III</p>
+			</div>
+		</footer>
 		</div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
