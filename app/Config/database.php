@@ -68,6 +68,8 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
+		'username' => 'root',
+		'password' => 'admin',
 		'database' => 'cableado',
 		'prefix' => '',
 		'encoding' => 'utf8',

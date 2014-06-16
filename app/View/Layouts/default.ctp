@@ -68,12 +68,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		<div id="content">
 
-			<?php echo $this->Session->flash(); ?>
+			
 
 			<div class="container">
 				<div class="row row-offcanvas row-offcanvas-right">
+					<?php echo $this->Session->flash(); ?>
 					<?php echo $this->fetch('content'); ?>
-					<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+					<!-- <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
 						<div class="list-group">
 							<a href="#" class="list-group-item active">Link</a>
 							<a href="#" class="list-group-item">Link</a>
@@ -86,7 +87,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 							<a href="#" class="list-group-item">Link</a>
 							<a href="#" class="list-group-item">Link</a>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		<div id="footer">
@@ -97,6 +98,6 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		</footer>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<?php //echo $this->element('sql_dump'); ?>
 </body>
 </html>
