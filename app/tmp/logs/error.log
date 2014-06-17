@@ -1,0 +1,65 @@
+2014-06-16 14:35:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cableado/campuses/edit/0
+Stack Trace:
+#0 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cableado/lib/Cake/Model/Model.php(1834): DboSource->create(Object(Campus), Array, Array)
+#4 /var/www/cableado/app/Controller/CampusesController.php(73): Model->save(Array)
+#5 [internal function]: CampusesController->edit('0')
+#6 /var/www/cableado/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CampusesController), Array)
+#7 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CampusesController), Object(CakeRequest))
+#9 /var/www/cableado/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-16 14:35:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cableado/campuses/edit/0
+Stack Trace:
+#0 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cableado/lib/Cake/Model/Model.php(1834): DboSource->create(Object(Campus), Array, Array)
+#4 /var/www/cableado/app/Controller/CampusesController.php(73): Model->save(Array)
+#5 [internal function]: CampusesController->edit('0')
+#6 /var/www/cableado/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CampusesController), Array)
+#7 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CampusesController), Object(CakeRequest))
+#9 /var/www/cableado/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-16 14:35:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cableado/campuses/edit/0
+Stack Trace:
+#0 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cableado/lib/Cake/Model/Model.php(1834): DboSource->create(Object(Campus), Array, Array)
+#4 /var/www/cableado/app/Controller/CampusesController.php(73): Model->save(Array)
+#5 [internal function]: CampusesController->edit('0')
+#6 /var/www/cableado/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CampusesController), Array)
+#7 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CampusesController), Object(CakeRequest))
+#9 /var/www/cableado/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-16 14:38:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cableado/campuses/edit/0
+Stack Trace:
+#0 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /var/www/cableado/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ca...')
+#3 /var/www/cableado/lib/Cake/Model/Model.php(1834): DboSource->create(Object(Campus), Array, Array)
+#4 /var/www/cableado/app/Controller/CampusesController.php(73): Model->save(Array)
+#5 [internal function]: CampusesController->edit('0')
+#6 /var/www/cableado/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CampusesController), Array)
+#7 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CampusesController), Object(CakeRequest))
+#9 /var/www/cableado/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-16 14:41:31 Error: [NotFoundException] Invalid campus
+Request URL: /cableado/campuses/edit/0
+Stack Trace:
+#0 [internal function]: CampusesController->edit('0')
+#1 /var/www/cableado/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CampusesController), Array)
+#2 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cableado/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(CampusesController), Object(CakeRequest))
+#4 /var/www/cableado/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
