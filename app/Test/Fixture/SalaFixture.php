@@ -48,7 +48,7 @@ class SalaFixture extends CakeTestFixture {
 			'nombre' => 'Lorem ipsum dolor sit amet',
 			'tipo' => 'Lorem ipsum dolor sit amet',
 			'descripcion' => 'Lorem ipsum dolor sit amet',
-			'hora_acceso' => '15:09:55',
+			'hora_acceso' => '15:31:41',
 			'piso_id' => 1,
 			'piso_edificio_id' => 1,
 			'piso_edificio_campus_id' => 1,

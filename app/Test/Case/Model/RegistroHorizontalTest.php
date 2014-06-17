@@ -18,15 +18,9 @@ class RegistroHorizontalTest extends CakeTestCase {
 		'app.rack',
 		'app.tgb',
 		'app.sala',
-		'app.sala_piso',
-		'app.sala_piso_edificio',
-		'app.sala_piso_edificio_campus',
-		'app.rack_tgb',
 		'app.interfaz',
-		'app.patchpanel_rack',
-		'app.patchpanel_rack_tgb',
 		'app.vlan',
-		'app.switch',
+		'app.suitch',
 		'app.registro_vertical',
 		'app.estacion'
 	);

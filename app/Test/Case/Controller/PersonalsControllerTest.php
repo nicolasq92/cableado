@@ -25,7 +25,7 @@ class PersonalsControllerTest extends ControllerTestCase {
 		'app.patchpanel',
 		'app.interfaz',
 		'app.vlan',
-		'app.switch',
+		'app.suitch',
 		'app.registro_horizontal',
 		'app.estacion',
 		'app.registro_vertical'

@@ -15,9 +15,20 @@ class AreaTrabajosControllerTest extends ControllerTestCase {
 	public $fixtures = array(
 		'app.area_trabajo',
 		'app.sala',
-		'app.sala_piso',
-		'app.sala_piso_edificio',
-		'app.sala_piso_edificio_campus'
+		'app.piso',
+		'app.edificio',
+		'app.campus',
+		'app.personal',
+		'app.rack',
+		'app.tgb',
+		'app.tmgb',
+		'app.patchpanel',
+		'app.interfaz',
+		'app.vlan',
+		'app.suitch',
+		'app.registro_horizontal',
+		'app.estacion',
+		'app.registro_vertical'
 	);
 
 /**

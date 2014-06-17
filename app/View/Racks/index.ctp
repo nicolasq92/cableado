@@ -18,7 +18,7 @@
 		<td><?php echo h($rack['Rack']['nombre']); ?>&nbsp;</td>
 		<td><?php echo h($rack['Rack']['descripcion']); ?>&nbsp;</td>
 		<td>
-			<?php echo $this->Html->link($rack['Tgb']['localizacion'], array('controller' => 'tgbs', 'action' => 'view', $rack['Tgb']['id'])); ?>
+			<?php echo $this->Html->link($rack['Tgb']['nombre'], array('controller' => 'tgbs', 'action' => 'view', $rack['Tgb']['id'])); ?>
 		</td>
 		<td>
 			<?php echo $this->Html->link($rack['Sala']['nombre'], array('controller' => 'salas', 'action' => 'view', $rack['Sala']['id'])); ?>

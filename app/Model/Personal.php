@@ -4,7 +4,6 @@ App::uses('AppModel', 'Model');
  * Personal Model
  *
  * @property Edificio $Edificio
- * @property EdificioCampus $EdificioCampus
  * @property Sala $Sala
  */
 class Personal extends AppModel {

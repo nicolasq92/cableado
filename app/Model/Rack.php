@@ -5,9 +5,6 @@ App::uses('AppModel', 'Model');
  *
  * @property Tgb $Tgb
  * @property Sala $Sala
- * @property SalaPiso $SalaPiso
- * @property SalaPisoEdificio $SalaPisoEdificio
- * @property SalaPisoEdificioCampus $SalaPisoEdificioCampus
  * @property Patchpanel $Patchpanel
  */
 class Rack extends AppModel {

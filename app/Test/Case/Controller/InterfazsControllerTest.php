@@ -15,10 +15,20 @@ class InterfazsControllerTest extends ControllerTestCase {
 	public $fixtures = array(
 		'app.interfaz',
 		'app.patchpanel',
-		'app.patchpanel_rack',
-		'app.patchpanel_rack_tgb',
+		'app.rack',
+		'app.tgb',
+		'app.tmgb',
+		'app.sala',
+		'app.piso',
+		'app.edificio',
+		'app.campus',
+		'app.personal',
+		'app.area_trabajo',
+		'app.registro_horizontal',
+		'app.estacion',
+		'app.registro_vertical',
 		'app.vlan',
-		'app.switch'
+		'app.suitch'
 	);
 
 /**

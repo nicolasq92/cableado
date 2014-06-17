@@ -54,7 +54,7 @@ class RegistroHorizontalFixture extends CakeTestFixture {
 			'longitud_cable' => 1,
 			'tipo_hardware' => 'Lorem ipsum dolor sit amet',
 			'observacion' => 'Lorem ipsum dolor sit amet',
-			'fecha_creacion' => '2014-06-16 15:06:42',
+			'fecha_creacion' => '2014-06-17 15:30:37',
 			'patchpanel_id' => 1,
 			'patchpanel_rack_id' => 1,
 			'patchpanel_rack_tgb_id' => 1,

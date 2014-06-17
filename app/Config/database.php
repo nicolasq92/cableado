@@ -24,7 +24,7 @@
  * datasource => The name of a supported datasource; valid options are as follows:
  *  Database/Mysql - MySQL 4 & 5,
  *  Database/Sqlite - SQLite (PHP5 only),
- *  Database/Postgres - Post3greSQL 7 and higher,
+ *  Database/Postgres - PostgreSQL 7 and higher,
  *  Database/Sqlserver - Microsoft SQL Server 2005 and higher
  *
  * You can add custom database datasources (or override existing datasources) by adding the
@@ -68,10 +68,19 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'username' => 'root',
-		'password' => 'admin',
 		'database' => 'cableado',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
+
+	// public $test = array(
+	// 	'datasource' => 'Database/Mysql',
+	// 	'persistent' => false,
+	// 	'host' => 'localhost',
+	// 	'login' => 'user',
+	// 	'password' => 'password',
+	// 	'database' => 'test_database_name',
+	// 	'prefix' => '',
+	// 	//'encoding' => 'utf8',
+	// );
 }

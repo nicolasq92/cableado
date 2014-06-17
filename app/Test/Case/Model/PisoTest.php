@@ -17,7 +17,6 @@ class PisoTest extends CakeTestCase {
 		'app.edificio',
 		'app.campus',
 		'app.personal',
-		'app.edificio_campus',
 		'app.sala'
 	);
 

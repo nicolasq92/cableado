@@ -20,7 +20,7 @@ class Tgb extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'localizacion';
+	public $displayField = 'nombre';
 
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

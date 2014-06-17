@@ -57,8 +57,7 @@ class RegistroHorizontalsController extends AppController {
 			}
 		}
 		$patchpanels = $this->RegistroHorizontal->Patchpanel->find('list');
-		$estacions = $this->RegistroHorizontal->Estacion->find('list');
-		$this->set(compact('patchpanels', 'estacions'));
+		$this->set(compact('patchpanels'));
 	}
 
 /**
@@ -84,8 +83,7 @@ class RegistroHorizontalsController extends AppController {
 			$this->request->data = $this->RegistroHorizontal->find('first', $options);
 		}
 		$patchpanels = $this->RegistroHorizontal->Patchpanel->find('list');
-		$estacions = $this->RegistroHorizontal->Estacion->find('list');
-		$this->set(compact('patchpanels', 'estacions'));
+		$this->set(compact('patchpanels'));
 	}
 
 /**

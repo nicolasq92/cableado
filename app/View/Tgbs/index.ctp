@@ -3,6 +3,7 @@
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
+			<th><?php echo $this->Paginator->sort('nombre'); ?></th>
 			<th><?php echo $this->Paginator->sort('localizacion'); ?></th>
 			<th><?php echo $this->Paginator->sort('localizacion_resultados_pruebas'); ?></th>
 			<th><?php echo $this->Paginator->sort('tmgb_id'); ?></th>
@@ -11,6 +12,7 @@
 	<?php foreach ($tgbs as $tgb): ?>
 	<tr>
 		<td><?php echo h($tgb['Tgb']['id']); ?>&nbsp;</td>
+		<td><?php echo h($tgb['Tgb']['nombre']); ?>&nbsp;</td>
 		<td><?php echo h($tgb['Tgb']['localizacion']); ?>&nbsp;</td>
 		<td><?php echo h($tgb['Tgb']['localizacion_resultados_pruebas']); ?>&nbsp;</td>
 		<td>

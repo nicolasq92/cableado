@@ -18,7 +18,7 @@
 		</dd>
 		<dt><?php echo __('Tgb'); ?></dt>
 		<dd>
-			<?php echo $this->Html->link($rack['Tgb']['localizacion'], array('controller' => 'tgbs', 'action' => 'view', $rack['Tgb']['id'])); ?>
+			<?php echo $this->Html->link($rack['Tgb']['nombre'], array('controller' => 'tgbs', 'action' => 'view', $rack['Tgb']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Sala'); ?></dt>

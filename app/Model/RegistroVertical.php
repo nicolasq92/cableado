@@ -4,8 +4,6 @@ App::uses('AppModel', 'Model');
  * RegistroVertical Model
  *
  * @property Patchpanel $Patchpanel
- * @property PatchpanelRack $PatchpanelRack
- * @property PatchpanelRackTgb $PatchpanelRackTgb
  */
 class RegistroVertical extends AppModel {
 

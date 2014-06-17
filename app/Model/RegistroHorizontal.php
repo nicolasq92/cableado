@@ -4,8 +4,6 @@ App::uses('AppModel', 'Model');
  * RegistroHorizontal Model
  *
  * @property Patchpanel $Patchpanel
- * @property PatchpanelRack $PatchpanelRack
- * @property PatchpanelRackTgb $PatchpanelRackTgb
  * @property Estacion $Estacion
  */
 class RegistroHorizontal extends AppModel {
@@ -36,13 +34,6 @@ class RegistroHorizontal extends AppModel {
 		'Patchpanel' => array(
 			'className' => 'Patchpanel',
 			'foreignKey' => 'patchpanel_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
-		'Estacion' => array(
-			'className' => 'Estacion',
-			'foreignKey' => 'estacion_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

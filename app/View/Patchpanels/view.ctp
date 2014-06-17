@@ -66,7 +66,7 @@
 		<th><?php echo __('Patchpanel Rack Id'); ?></th>
 		<th><?php echo __('Patchpanel Rack Tgb Id'); ?></th>
 		<th><?php echo __('Vlan Id'); ?></th>
-		<th><?php echo __('Switch Id'); ?></th>
+		<th><?php echo __('Suitch Id'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	<?php foreach ($patchpanel['Interfaz'] as $interfaz): ?>
@@ -77,7 +77,7 @@
 			<td><?php echo $interfaz['patchpanel_rack_id']; ?></td>
 			<td><?php echo $interfaz['patchpanel_rack_tgb_id']; ?></td>
 			<td><?php echo $interfaz['vlan_id']; ?></td>
-			<td><?php echo $interfaz['switch_id']; ?></td>
+			<td><?php echo $interfaz['suitch_id']; ?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('View'), array('controller' => 'interfazs', 'action' => 'view', $interfaz['id'])); ?>
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'interfazs', 'action' => 'edit', $interfaz['id'])); ?>

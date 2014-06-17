@@ -15,12 +15,9 @@ class PatchpanelTest extends CakeTestCase {
 	public $fixtures = array(
 		'app.patchpanel',
 		'app.rack',
-		'app.rack_tgb',
 		'app.interfaz',
-		'app.patchpanel_rack',
-		'app.patchpanel_rack_tgb',
 		'app.vlan',
-		'app.switch',
+		'app.suitch',
 		'app.registro_horizontal',
 		'app.registro_vertical'
 	);

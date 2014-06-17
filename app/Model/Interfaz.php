@@ -4,10 +4,8 @@ App::uses('AppModel', 'Model');
  * Interfaz Model
  *
  * @property Patchpanel $Patchpanel
- * @property PatchpanelRack $PatchpanelRack
- * @property PatchpanelRackTgb $PatchpanelRackTgb
  * @property Vlan $Vlan
- * @property Switch $Switch
+ * @property Suitch $Suitch
  */
 class Interfaz extends AppModel {
 
@@ -48,9 +46,9 @@ class Interfaz extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Switch' => array(
-			'className' => 'Switch',
-			'foreignKey' => 'switch_id',
+		'Suitch' => array(
+			'className' => 'Suitch',
+			'foreignKey' => 'suitch_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

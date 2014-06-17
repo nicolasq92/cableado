@@ -3,6 +3,7 @@
 	<fieldset>
 		<legend><?php echo __('Add Tgb'); ?></legend>
 	<?php
+		echo $this->Form->input('nombre');
 		echo $this->Form->input('localizacion');
 		echo $this->Form->input('localizacion_resultados_pruebas');
 		echo $this->Form->input('tmgb_id');

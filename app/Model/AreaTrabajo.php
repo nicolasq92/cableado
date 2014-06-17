@@ -4,9 +4,6 @@ App::uses('AppModel', 'Model');
  * AreaTrabajo Model
  *
  * @property Sala $Sala
- * @property SalaPiso $SalaPiso
- * @property SalaPisoEdificio $SalaPisoEdificio
- * @property SalaPisoEdificioCampus $SalaPisoEdificioCampus
  */
 class AreaTrabajo extends AppModel {
 

@@ -6,6 +6,11 @@
 			<?php echo h($tgb['Tgb']['id']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Nombre'); ?></dt>
+		<dd>
+			<?php echo h($tgb['Tgb']['nombre']); ?>
+			&nbsp;
+		</dd>
 		<dt><?php echo __('Localizacion'); ?></dt>
 		<dd>
 			<?php echo h($tgb['Tgb']['localizacion']); ?>

@@ -16,9 +16,19 @@ class EdificiosControllerTest extends ControllerTestCase {
 		'app.edificio',
 		'app.campus',
 		'app.personal',
-		'app.edificio_campus',
 		'app.sala',
-		'app.piso'
+		'app.piso',
+		'app.area_trabajo',
+		'app.rack',
+		'app.tgb',
+		'app.tmgb',
+		'app.patchpanel',
+		'app.interfaz',
+		'app.vlan',
+		'app.suitch',
+		'app.registro_horizontal',
+		'app.estacion',
+		'app.registro_vertical'
 	);
 
 /**

@@ -58,8 +58,8 @@ class InterfazsController extends AppController {
 		}
 		$patchpanels = $this->Interfaz->Patchpanel->find('list');
 		$vlans = $this->Interfaz->Vlan->find('list');
-		$switches = $this->Interfaz->Switch->find('list');
-		$this->set(compact('patchpanels', 'vlans', 'switches'));
+		$suitches = $this->Interfaz->Suitch->find('list');
+		$this->set(compact('patchpanels', 'vlans', 'suitches'));
 	}
 
 /**
@@ -86,8 +86,8 @@ class InterfazsController extends AppController {
 		}
 		$patchpanels = $this->Interfaz->Patchpanel->find('list');
 		$vlans = $this->Interfaz->Vlan->find('list');
-		$switches = $this->Interfaz->Switch->find('list');
-		$this->set(compact('patchpanels', 'vlans', 'switches'));
+		$suitches = $this->Interfaz->Suitch->find('list');
+		$this->set(compact('patchpanels', 'vlans', 'suitches'));
 	}
 
 /**

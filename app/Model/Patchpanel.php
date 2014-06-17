@@ -4,7 +4,6 @@ App::uses('AppModel', 'Model');
  * Patchpanel Model
  *
  * @property Rack $Rack
- * @property RackTgb $RackTgb
  * @property Interfaz $Interfaz
  * @property RegistroHorizontal $RegistroHorizontal
  * @property RegistroVertical $RegistroVertical

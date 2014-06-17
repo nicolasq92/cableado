@@ -24,22 +24,11 @@ class VlanTest extends CakeTestCase {
 		'app.edificio',
 		'app.campus',
 		'app.personal',
-		'app.edificio_campus',
-		'app.piso_edificio',
-		'app.piso_edificio_campus',
-		'app.personal_edificio',
-		'app.personal_edificio_campus',
 		'app.area_trabajo',
-		'app.sala_piso',
-		'app.sala_piso_edificio',
-		'app.sala_piso_edificio_campus',
-		'app.rack_tgb',
 		'app.registro_horizontal',
-		'app.patchpanel_rack',
-		'app.patchpanel_rack_tgb',
 		'app.estacion',
 		'app.registro_vertical',
-		'app.switch'
+		'app.suitch'
 	);
 
 /**

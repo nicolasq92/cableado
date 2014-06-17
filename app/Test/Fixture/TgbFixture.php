@@ -19,6 +19,7 @@ class TgbFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'primary'),
+		'nombre' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 45, 'unsigned' => false),
 		'localizacion' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'localizacion_resultados_pruebas' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 160, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'tmgb_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'primary'),
@@ -37,6 +38,7 @@ class TgbFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
+			'nombre' => 1,
 			'localizacion' => 'Lorem ipsum dolor sit amet',
 			'localizacion_resultados_pruebas' => 'Lorem ipsum dolor sit amet',
 			'tmgb_id' => 1

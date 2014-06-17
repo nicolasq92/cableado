@@ -15,13 +15,19 @@ class PatchpanelsControllerTest extends ControllerTestCase {
 	public $fixtures = array(
 		'app.patchpanel',
 		'app.rack',
-		'app.rack_tgb',
+		'app.tgb',
+		'app.tmgb',
+		'app.sala',
+		'app.piso',
+		'app.edificio',
+		'app.campus',
+		'app.personal',
+		'app.area_trabajo',
 		'app.interfaz',
-		'app.patchpanel_rack',
-		'app.patchpanel_rack_tgb',
 		'app.vlan',
-		'app.switch',
+		'app.suitch',
 		'app.registro_horizontal',
+		'app.estacion',
 		'app.registro_vertical'
 	);
 

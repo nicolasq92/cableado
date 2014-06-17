@@ -45,6 +45,7 @@
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
 		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Nombre'); ?></th>
 		<th><?php echo __('Localizacion'); ?></th>
 		<th><?php echo __('Localizacion Resultados Pruebas'); ?></th>
 		<th><?php echo __('Tmgb Id'); ?></th>
@@ -53,6 +54,7 @@
 	<?php foreach ($tmgb['Tgb'] as $tgb): ?>
 		<tr>
 			<td><?php echo $tgb['id']; ?></td>
+			<td><?php echo $tgb['nombre']; ?></td>
 			<td><?php echo $tgb['localizacion']; ?></td>
 			<td><?php echo $tgb['localizacion_resultados_pruebas']; ?></td>
 			<td><?php echo $tgb['tmgb_id']; ?></td>

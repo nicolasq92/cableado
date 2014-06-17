@@ -4,11 +4,7 @@ App::uses('AppModel', 'Model');
  * Sala Model
  *
  * @property Piso $Piso
- * @property PisoEdificio $PisoEdificio
- * @property PisoEdificioCampus $PisoEdificioCampus
  * @property Personal $Personal
- * @property PersonalEdificio $PersonalEdificio
- * @property PersonalEdificioCampus $PersonalEdificioCampus
  * @property AreaTrabajo $AreaTrabajo
  * @property Rack $Rack
  */
